@@ -1,0 +1,28 @@
+# Project-specific files
+generated_website*
+*.db 
+**/__pycache__/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Browser automation
+.playwright-cache/
+
+# LangSmith and model API keys
+.env.local
+.env
